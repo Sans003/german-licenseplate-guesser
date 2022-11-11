@@ -136,7 +136,7 @@ sg.theme("DarkGrey")
 while True:
     event, values = window.read()
     print(event)
-    if "_EXIT_" in event or event == sg.WIN_CLOSED:
+    if "_EXIT_" in str(event) or event == sg.WIN_CLOSED:
         break
     elif "_MENU_" in event:
         lives, wins = reset(lives, wins)
