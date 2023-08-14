@@ -1,0 +1,2 @@
+pysimplegui==4.60.5
+pylightxl==1.61
